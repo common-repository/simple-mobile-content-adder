@@ -1,0 +1,44 @@
+/* apply style to add new submenu*/
+
+#acf-msdav_position, #acf-msdav_include, #acf-msdav_front {
+    background-color: white;
+    margin-left: 0px; 
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    padding-left: 3px; 
+}
+
+#acf-msdav_position .label label, #acf-msdav_include .label label, #acf-msdav_content .label label, #acf-msdav_class .label label, #acf-msdav_front .label label {
+    font-size: 15px;
+}
+
+#acf-msdav_position .label .required, #acf-msdav_include .label .required, #acf-msdav_content .label .required {
+    margin-left: 0px;
+}
+
+.acf-checkbox-list label {
+    font-size: 14px;
+}
+
+#acf-msdav_content, #acf-msdav_class {
+
+    margin-left: 0px; 
+    padding-left: 3px; 
+}
+
+#sca-note {
+    display: none;
+}
+
+#sca-note2 {
+    display: none;
+}
+
+#acf-msdav_front {
+    display: none;
+}
+
+.sca-adder {
+    background-color: white;
+    padding: 20px; 
+}
